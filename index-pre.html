@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/style-pre.css" />
+  </head>
+  <body class="page">
+    <header class="header page__section">
+      <ul class="navigation header__navigation">
+        <li class="navigation__item navigation__item_show-dropdown">
+          <div class="navigation__button navigation__button_arrow">Новости</div>
+          <nav
+            class="dropdown-menu navigation__dropdown-menu navigation__dropdown-menu_hover"
+          >
+            <a href="#" class="dropdown-menu__link">Музыка</a>
+            <a href="#" class="dropdown-menu__link">События</a>
+            <a href="#" class="dropdown-menu__link">Мода</a>
+          </nav>
+        </li>
+        <li class="navigation__item">
+          <a href="#" class="navigation__link">Контакты</a>
+        </li>
+        <li class="navigation__item">
+          <a href="#subscribe" class="navigation__link">Подписаться</a>
+        </li>
+      </ul>
+      <div class="mobile-header" id="mobile-header">
+        <button class="menu-button mobile-header__open-menu-button">
+          <span class="menu-button__label">Меню</span>
+          <span class="menu-icon menu-button__icon"></span>
+        </button>
+      </div>
+      <h1 class="header__title">LOCAL-Z</h1>
+      <h2 class="description header__description">
+        Диджитал-зин об актуальных трендах самого свободного поколения
+      </h2>
+      <div class="edition header__edition">
+        <div class="edition__line">Выпуск № 06 Июнь 2021</div>
+      </div>
+    </header>
+    <div class="sticky-header sticky-header_disable">
+      <button class="menu-button sticky-header__open-menu-button">
+        <span class="menu-button__label">Меню</span>
+        <span class="menu-icon menu-button__icon"></span>
+      </button>
+    </div>
+    <div class="menu">
+      <button class="menu-button menu__close-button">
+        <span class="menu-button__label menu-button__label_to-close"
+          >Закрыть</span
+        >
+        <span class="menu-icon menu-icon_close menu-button__icon"></span>
+      </button>
+      <ul class="navigation menu__navigation">
+        <li
+          class="navigation-button navigation__item navigation__item_vertical"
+        >
+          <div class="navigation__button navigation__button_arrow">Новости</div>
+          <nav
+            class="dropdown-menu navigation__dropdown-menu navigation__dropdown-menu_click"
+          >
+            <a href="#" class="dropdown-menu__link">Музыка</a>
+            <a href="#" class="dropdown-menu__link">События</a>
+            <a href="#" class="dropdown-menu__link">Мода</a>
+          </nav>
+        </li>
+        <li class="navigation__item navigation__item_vertical">
+          <a href="#" class="navigation__link">Контакты</a>
+        </li>
+        <li class="navigation__item navigation__item_vertical">
+          <a href="#" class="navigation__link">Подписаться</a>
+        </li>
+      </ul>
+    </div>
+    <section class="news page__section">
+      <div class="news__section">
+        <h3 class="news__title">Новости</h3>
+        <div class="slider news__slider">
+          <div class="slider-navigation slider__navigation">
+            <button
+              class="slider-navigation__arrow slider-navigation__arrow_left"
+            ></button>
+            <button
+              class="slider-navigation__arrow slider-navigation__arrow_right"
+            ></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="slider-content slider__slider-content">
+        <div class="slide slider-content__slide">
+          <a href="#" class="card-image slide__card">
+            <img
+              src="./images/slider-image-1.jpg"
+              width="512"
+              height="512"
+              class="card-image__image"
+              alt="Luxury perfume bottles."
+            />
+            <div class="card-image__button">смотреть новость</div>
+          </a>
+          <h4 class="slide__title">Ароматы лета. Выбор редакции</h4>
+          <div class="slide__date">20 июня 2021 г.</div>
+        </div>
+        <div class="slide slider-content__slide">
+          <a href="#" class="card-image slide__card">
+            <img
+              src="./images/slider-image-2.jpg"
+              width="512"
+              height="682"
+              class="card-image__image"
+              alt="A young man, lit by neon light."
+            />
+            <div class="card-image__button">смотреть новость</div>
+          </a>
+          <h4 class="slide__title">
+            Новый трек МС Кулак. Главный бэнгер сезона?
+          </h4>
+          <div class="slide__date">20 июня 2021 г.</div>
+        </div>
+        <div class="slide slider-content__slide">
+          <a href="#" class="card-image slide__card">
+            <img
+              src="./images/slider-image-3.jpg"
+              width="512"
+              height="512"
+              class="card-image__image"
+              alt="A topless woman covering her breasts with hands."
+            />
+            <div class="card-image__button">смотреть новость</div>
+          </a>
+          <h4 class="slide__title">
+            Открытие выставки фотографа Криса Хэттингера
+          </h4>
+          <div class="slide__date">20 июня 2021 г.</div>
+        </div>
+        <div class="slide slider-content__slide">
+          <a href="#" class="card-image slide__card">
+            <img
+              src="./images/slider-image-4.jpg"
+              width="512"
+              height="682"
+              class="card-image__image"
+              alt="A DJ playing music in neon light."
+            />
+            <div class="card-image__button">смотреть новость</div>
+          </a>
+          <h4 class="slide__title">
+            DJ Deejay выступит на открытии нового клуба
+          </h4>
+          <div class="slide__date">20 июня 2021 г.</div>
+        </div>
+        <div class="slide slider-content__slide">
+          <a href="#" class="card-image slide__card">
+            <img
+              src="./images/slider-image-5.jpg"
+              width="512"
+              height="512"
+              class="card-image__image"
+              alt="A man with tattoos."
+            />
+            <div class="card-image__button">смотреть новость</div>
+          </a>
+          <h4 class="slide__title">
+            Из грязи в князи. Интервью с популярным дизайнером одежды Пэтом
+            Джонсоном
+          </h4>
+          <div class="slide__date">20 июня 2021 г.</div>
+        </div>
+      </div>
+      <div class="progress-bar">
+        <div class="progress-bar__indicator" id="indicator"></div>
+      </div>
+    </section>
+    <footer class="footer page__section page__section_theme_dark">
+      <section class="footer__section">
+        <h3 class="section-title section-title_color_white">Instagram</h3>
+        <div class="instagram">
+          <a href="#" class="instagram__image-link">
+            <img
+              src="./images/instagram-img-1.jpg"
+              width = "335"
+              height = "335"
+              alt=""
+              class="instagram__image"
+            />
+          </a>
+          <a href="#" class="instagram__image-link">
+            <img
+              src="./images/instagram-img-2.jpg"
+              width = "335"
+              height = "335"
+              alt=""
+              class="instagram__image"
+            />
+          </a>
+          <a href="#" class="instagram__image-link">
+            <img
+              src="./images/instagram-img-3.jpg"
+              width = "335"
+              height = "335"
+              alt=""
+              class="instagram__image"
+            />
+          </a>
+          <a href="#" class="instagram__image-link">
+            <img
+              src="./images/instagram-img-4.jpg"
+              width = "335"
+              height = "335"
+              alt=""
+              class="instagram__image"
+            />
+          </a>
+        </div>
+      </section>
+      <section class="footer-section footer__section" id="subscribe">
+        <h3 class="section-title section-title_color_white">Подписаться</h3>
+        <div class="subscribe">
+          <h4 class="subscribe__title">
+            Каждую неделю мы рассылаем дайджест самых интересных новостей
+          </h4>
+          <form action="URL" class="form subscribe__form">
+            <fieldset class="form__subscribe-info">
+              <div class="form__input-fields">
+                <input
+                  type="email"
+                  class="form__input-email"
+                  placeholder="Укажите свой email"
+                />
+                <input type="submit" class="form__submit" value="Подписаться" />
+              </div>
+              <div class="form__agreement-elements">
+              <input type="checkbox" class="form__agreement-checkbox" />
+
+                <div class="form__agreement-custom-checkbox"></div>
+                <div class="form__agreement-text">
+                  Я даю согласие на обработку персональных данных
+                </div>
+              </div>
+            </fieldset>
+          </form>
+        </div>
+      </section>
+      <p class="footer__copyright">2021 © Все права защищены</p>
+    </footer>
+    <script src="./js/script-pre.js"></script>
+  </body>
+</html>
