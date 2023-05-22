@@ -425,6 +425,9 @@
   height: 48px;
   background: #fff;
   border: none;
+  border-radius: 0px;
+  -webkit-border-radius: 0px;
+  -webkit-appearance: none;
   display: flex;
   align-items: center;
   justify-content: center;
