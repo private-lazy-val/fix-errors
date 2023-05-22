@@ -79,6 +79,8 @@ const closePopupDropDownMenu = () => {
   menuItemArrow.classList.remove("navigation__button_arrow_up");
 };
 
+closeMenuButton.addEventListener("click", closePopupDropDownMenu);
+
 window.addEventListener("scroll", toggleScrollOnMobile);
 
 // Toggle menu on desktop and mobile
