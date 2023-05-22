@@ -21,10 +21,6 @@
   font-family: 'Golos';
 }
 
-.page_scroll_off {
-  overflow: hidden;
-}
-
 .page__section {
   min-width: 320px;
   padding: 0 20px;
@@ -465,6 +461,7 @@
   margin-right: 10px;
   align-self: center;
   flex-shrink: 0;
+  cursor: pointer;
 }
 
 .form__agreement-checkbox:checked+.form__agreement-custom-checkbox:after {
@@ -544,7 +541,7 @@
   justify-content: flex-end;
   align-items: center;
   cursor: pointer;
-  z-index: 2;
+  z-index: 0;
   height: 24px;
 }
 

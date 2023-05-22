@@ -3,15 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="" />
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles/style-pre.css" />
+    <title>Local-Z</title>
+    <script defer src="./js/script-pre.js"></script>
   </head>
+
   <body class="page">
     <header class="header page__section">
+      <!-- Desktop nav-->
       <ul class="navigation header__navigation">
         <li class="navigation__item navigation__item_show-dropdown">
           <div class="navigation__button navigation__button_arrow">Новости</div>
+          <!-- Desktop drop-down menu -->
           <nav
             class="dropdown-menu navigation__dropdown-menu navigation__dropdown-menu_hover"
           >
@@ -27,12 +31,16 @@
           <a href="#subscribe" class="navigation__link">Подписаться</a>
         </li>
       </ul>
+
+      <!-- Mobile nav-->
       <div class="mobile-header" id="mobile-header">
         <button class="menu-button mobile-header__open-menu-button">
           <span class="menu-button__label">Меню</span>
           <span class="menu-icon menu-button__icon"></span>
         </button>
       </div>
+
+      <!-- Hero -->
       <h1 class="header__title">LOCAL-Z</h1>
       <h2 class="description header__description">
         Диджитал-зин об актуальных трендах самого свободного поколения
@@ -41,12 +49,16 @@
         <div class="edition__line">Выпуск № 06 Июнь 2021</div>
       </div>
     </header>
+
+    <!-- Sticky header -->
     <div class="sticky-header sticky-header_disable">
       <button class="menu-button sticky-header__open-menu-button">
         <span class="menu-button__label">Меню</span>
         <span class="menu-icon menu-button__icon"></span>
       </button>
     </div>
+
+    <!-- Sticky header popup -->
     <div class="menu">
       <button class="menu-button menu__close-button">
         <span class="menu-button__label menu-button__label_to-close"
@@ -59,6 +71,7 @@
           class="navigation-button navigation__item navigation__item_vertical"
         >
           <div class="navigation__button navigation__button_arrow">Новости</div>
+          <!-- Sticky header drop-down menu -->
           <nav
             class="dropdown-menu navigation__dropdown-menu navigation__dropdown-menu_click"
           >
@@ -75,6 +88,8 @@
         </li>
       </ul>
     </div>
+
+    <!-- News section -->
     <section class="news page__section">
       <div class="news__section">
         <h3 class="news__title">Новости</h3>
@@ -90,6 +105,7 @@
         </div>
       </div>
 
+      <!-- Slider content -->
       <div class="slider-content slider__slider-content">
         <div class="slide slider-content__slide">
           <a href="#" class="card-image slide__card">
@@ -174,16 +190,19 @@
       <div class="progress-bar">
         <div class="progress-bar__indicator" id="indicator"></div>
       </div>
+
+      <!-- Footer -->
     </section>
     <footer class="footer page__section page__section_theme_dark">
+      <!-- Instagram -->
       <section class="footer__section">
         <h3 class="section-title section-title_color_white">Instagram</h3>
         <div class="instagram">
           <a href="#" class="instagram__image-link">
             <img
               src="./images/instagram-img-1.jpg"
-              width = "335"
-              height = "335"
+              width="335"
+              height="335"
               alt=""
               class="instagram__image"
             />
@@ -191,8 +210,8 @@
           <a href="#" class="instagram__image-link">
             <img
               src="./images/instagram-img-2.jpg"
-              width = "335"
-              height = "335"
+              width="335"
+              height="335"
               alt=""
               class="instagram__image"
             />
@@ -200,8 +219,8 @@
           <a href="#" class="instagram__image-link">
             <img
               src="./images/instagram-img-3.jpg"
-              width = "335"
-              height = "335"
+              width="335"
+              height="335"
               alt=""
               class="instagram__image"
             />
@@ -209,14 +228,16 @@
           <a href="#" class="instagram__image-link">
             <img
               src="./images/instagram-img-4.jpg"
-              width = "335"
-              height = "335"
+              width="335"
+              height="335"
               alt=""
               class="instagram__image"
             />
           </a>
         </div>
       </section>
+
+      <!-- Subscribe -->
       <section class="footer-section footer__section" id="subscribe">
         <h3 class="section-title section-title_color_white">Подписаться</h3>
         <div class="subscribe">
@@ -234,8 +255,7 @@
                 <input type="submit" class="form__submit" value="Подписаться" />
               </div>
               <div class="form__agreement-elements">
-              <input type="checkbox" class="form__agreement-checkbox" />
-
+                <input type="checkbox" class="form__agreement-checkbox" />
                 <div class="form__agreement-custom-checkbox"></div>
                 <div class="form__agreement-text">
                   Я даю согласие на обработку персональных данных
@@ -245,8 +265,8 @@
           </form>
         </div>
       </section>
+      <!-- Copyright -->
       <p class="footer__copyright">2021 © Все права защищены</p>
     </footer>
-    <script src="./js/script-pre.js"></script>
   </body>
 </html>
