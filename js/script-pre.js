@@ -5,9 +5,7 @@ const navNewsButton = document.querySelector(".navigation__item");
 const navDropdownMenu = header.querySelector(
   ".navigation__dropdown-menu_hover"
 );
-const headerItemArrow = header.querySelector(
-  ".navigation__button_arrow"
-);
+const headerItemArrow = header.querySelector(".navigation__button_arrow");
 // Desktop menu
 const menu = document.querySelector(".menu");
 const stickyHeader = document.querySelector(".sticky-header");
@@ -19,9 +17,7 @@ const popupNewsButton = document.querySelector(".navigation-button");
 const popupDropdownMenu = menu.querySelector(
   ".navigation__dropdown-menu_click"
 );
-const menuItemArrow = menu.querySelector(
-  ".navigation__button_arrow"
-);
+const menuItemArrow = menu.querySelector(".navigation__button_arrow");
 // Mobile nav bar
 const openMobileMenuButton = document.querySelector(
   ".mobile-header__open-menu-button"
@@ -36,11 +32,12 @@ const sliderArrowRight = document.querySelector(
   ".slider-navigation__arrow_right"
 );
 // Checkboxes
-const customCheckbox = document.querySelector(".form__agreement-custom-checkbox");
+const customCheckbox = document.querySelector(
+  ".form__agreement-custom-checkbox"
+);
 const actualCheckbox = document.querySelector(".form__agreement-checkbox");
 
 let currentPositionOfScroll = 0;
-
 
 // Toggle sticky header
 const toggleStickyHeader = () => {
@@ -99,7 +96,6 @@ openMobileMenuButton.addEventListener("click", toggleMenu);
 closeMenuButton.addEventListener("click", closeMenu);
 
 page.addEventListener("click", function (e) {
-
   if (
     !openMenuButton.contains(e.target) &&
     !menu.contains(e.target) &&
@@ -125,7 +121,6 @@ const toggleNavDropDownMenu = () => {
 popupNewsButton.addEventListener("click", togglePopupDropDownMenu);
 navNewsButton.addEventListener("click", toggleNavDropDownMenu);
 
-
 // Close dropdown menu in nav by clicking outside of the trigger element
 const closeNavDropDownMenu = () => {
   navDropdownMenu.classList.remove("dropdown-menu_click-open");
@@ -145,10 +140,6 @@ customCheckbox.addEventListener("click", function () {
   // Toggle checked state of the actual checkbox
   actualCheckbox.checked = !actualCheckbox.checked;
 });
-
-
-
-
 
 const getMarginRightOfElement = (element) => {
   const slideMargin = window.getComputedStyle(slide).marginRight;
