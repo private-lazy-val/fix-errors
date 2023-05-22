@@ -427,6 +427,7 @@
   border: none;
   border-radius: 0px;
   -webkit-border-radius: 0px;
+  appearance: none;
   -webkit-appearance: none;
   display: flex;
   align-items: center;
