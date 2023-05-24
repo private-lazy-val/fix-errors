@@ -58,6 +58,7 @@ const toggleDesktopMenu = () => {
 
   if (isMenuInsideOfHeader) {
     closeMenu();
+    closePopupDropDownMenu();
   }
 };
 
@@ -85,7 +86,8 @@ window.addEventListener("scroll", toggleScrollOnMobile);
 
 // Toggle menu on desktop and mobile
 const toggleMenu = () => {
-  menu.classList.toggle("menu_open");
+  menu.classList.add("menu_open");
+  closePopupDropDownMenu();
 };
 
 // Close popup

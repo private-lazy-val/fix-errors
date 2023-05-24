@@ -221,10 +221,6 @@
   margin-bottom: 40px;
 }
 
-.slider {
-  position: relative;
-}
-
 .slider-content {
   display: flex;
   overflow-x: hidden;
@@ -250,7 +246,7 @@
   height: 682px;
 }
 
-.news__section {
+.slider__navigation {
   display: flex;
   justify-content: space-between;
 }
